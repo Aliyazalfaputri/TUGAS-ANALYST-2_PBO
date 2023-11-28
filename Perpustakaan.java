@@ -134,7 +134,7 @@ public static void main(String[] args) {
         System.out.print("Masukkan penulis buku : ");
         String bookAuthor = scanner.nextLine();
 
-        System.out.print("Masukkan ISN buku : ");
+        System.out.print("Masukkan ISBN buku : ");
         String bookISBN = scanner.nextLine();
 
         return new Buku(bookTitle, bookAuthor, bookISBN);
